@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Super Snake</title>
+  <script type="module" crossorigin src="/assets/index-51dd1a2c.js"></script>
+  <link rel="stylesheet" href="/assets/index-8a202c2c.css">
+</head>
+
+<body>
+  <div class="strScreen">
+    Super Snake!
+    <button class="btn" id="startGame">Start</button>
+    <button class="btn" id="gamemode">
+      Gamemode<div>
+        <button class="btn" id="posion">Poison</button>
+        <button class="btn" id="speedy">Speedy</button>
+        <button class="btn" id="walls">Walls</button>
+        <button id="backBtn">-Back-</button>
+      </div>
+    </button>
+  </div>
+
+
+
+  <div class="game_Over">
+    <h1>Game Over!</h1>
+    <button class="btn" id="restart">Restart Game</button>
+    <button class="btn" id="totscore">Score</button>
+  </div>
+
+  <div id="start-screen" class="app">
+    <div class="details">
+      <div class="background">
+        <span id="score">Score:0</span>
+        <spa id="highscore">Highscore: </span>
+      </div>
+    </div>
+    <div id="canvas" class="grid"></div>
+    <div class="controls">
+      <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+      <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+      <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+      <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+    </div>
+  </div>
+
+
+
+  
+  
+</body>
+
+</html>
